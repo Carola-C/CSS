@@ -1,0 +1,22 @@
+@charset "utf-8";
+table {
+    width: max-content;
+}
+
+thead {
+    background-color: rgba(0, 255, 255, 0.804);
+}
+
+td,th {
+    border: 1px solid;
+    text-align: center;
+}
+
+.cPrimera {
+    background-color: rgb(238, 215, 121);
+    font-weight: bold;
+}
+
+tfoot {
+    background-color: darkseagreen;
+}
