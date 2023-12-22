@@ -27,3 +27,57 @@ section{
     margin: auto 30px;
     background: chartreuse;
 }
+
+@media only screen and (max-width: 800px){
+    body{
+        background: lime;
+    }
+    header::before{
+        content: 'Ancho maximo de 800px';
+        font-size: 50px;
+        columns: #fff;
+    }
+    footer{
+        background: #17a589;
+    }
+    section{
+        background: chocolate;
+    }
+}
+
+@media only screen and (max-width: 600px){
+    body{
+        background: yellow;
+    }
+    header::before{
+        content: 'Ancho máximo de 600px';
+        font-size: 50px;
+        color: #fff;
+    }
+    section{
+        background: rgb(210, 210, 30);
+    }
+}
+@media only screen and (min-width: 1000px){
+    body{
+        background: purple;
+    }
+    header::before{
+        content: 'Ancho minimo de 1000px';
+        font-size: 50px;
+        color: #fff;
+    }
+    footer{
+        background: #ff5733;
+    }
+}
+@media (orientation:landscape){
+    body{
+        background-image: url(archivo.png);
+    }
+}
+@media (orientation:portrait){
+    body{
+        background-image: url(vertical.jpg);
+    }
+}
